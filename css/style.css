@@ -71,7 +71,7 @@
 
     /******************MOBILE*****************/
 
-    @media only screen and (max-device-width: 768px) {
+    @media only screen and (max-width: 768px) {
         .base {
             position: relative;
             width: 90vw;
@@ -142,7 +142,7 @@
     }
     /*************************LAPTOP*******************************/
 
-    @media only screen and (min-device-width: 768px) {
+    @media only screen and (min-width: 769px) {
         header>.base {
             position: relative;
             margin-top: 20vh;
