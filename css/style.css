@@ -15,6 +15,7 @@
         margin-top: 150px;
     }
     body {
+        max-width: 1300px;
         background-color: #2b2d42;
     }
     h1 {
@@ -58,7 +59,7 @@
         margin-top: 100px;
     }
     .view {
-        max-width: 1300px;
+
         margin-left: 5vw;
         margin-right: 5vw;
     }
