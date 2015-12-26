@@ -6,10 +6,6 @@
     html {
         font-size: 62.5%;
     }
-    .view {
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
     section {
         height: 400px;
         margin-top: 200px;
@@ -20,6 +16,51 @@
     }
     body {
         background-color: #2b2d42;
+    }
+    h1 {
+        font-family: ArialRoundedMTBold;
+        font-size: 5em;
+        color: #1CBF9C;
+        text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.50);
+        text-align: center;
+    }
+    h2 {
+        /* Himanshu Chauhan: */
+        font-family: Athelas-Bold;
+        font-size: 6em;
+        color: #fcfcfd;
+        text-align: center;
+    }
+    h3 {
+        /* Designer//Developer/: */
+        font-family: Athelas-Italic;
+        font-size: 3em;
+        color: #fcfcfd;
+        text-align: center;
+    }
+    .abt {
+        position: absolute;
+        width: 50%;
+        height: 70%;
+        margin-left: 50%;
+        margin-top: 80px;
+    }
+    p {
+        /* Lorem ipsum dolor si: */
+        margin-top: 75px;
+        font-family: Athelas-Italic;
+        font-size: 2.5em;
+        color: #09A88A;
+        text-align: center;
+    }
+    footer {
+        height: 550px;
+        margin-top: 100px;
+    }
+    .view {
+        max-width: 1300px;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
     .white {
         box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.5);
@@ -35,36 +76,11 @@
         margin-left: 10%;
         margin-right: 10%;
     }
-    h1 {
-        font-family: ArialRoundedMTBold;
-        font-size: 5em;
-        color: #1CBF9C;
-        text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.50);
-        text-align: center;
-    }
-    .head>h1 {
-        color: #fcfcfd;
-    }
-    footer {
-        height: 550px;
-        margin-top: 100px;
-    }
-    .foot {
-        background-color: #15c19c;
-        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.50);
-    }
-    .portfolioh1 {
-        position: absolute;
-    }
     .contacth1>h1 {
         color: #fcfcfd;
     }
     .portfolioh1>h1 {
         color: #fcfcfd;
-    }
-    .icon {
-        color: #15c19c;
-        font-size: 5em;
     }
     header>.base {
         position: relative;
@@ -91,19 +107,19 @@
         width: 60vw;
         margin-left: 30vw;
     }
-    .abouth1 {
-        position: absolute;
-        width: 50%;
-        margin-left: 28%;
-        margin-right: 22%;
-        margin-top: 8px;
-    }
     .about>.base>.top {
         position: absolute;
         height: 70%;
         width: 60vw;
         margin-top: 80px;
         margin-left: -50%;
+    }
+    .abouth1 {
+        position: absolute;
+        width: 50%;
+        margin-left: 28%;
+        margin-right: 22%;
+        margin-top: 8px;
     }
     .portfolio>.base {
         position: relative;
@@ -138,6 +154,8 @@
         width: 20%;
     }
     .foot {
+        background-color: #15c19c;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.50);
         position: absolute;
         height: 450px;
         margin-top: 180px;
@@ -145,5 +163,9 @@
     }
     .contacth1 {
         margin-top: -65px;
+    }
+    .icon {
+        color: #15c19c;
+        font-size: 5em;
     }
     /*#fcfcfd #15c19c*/
