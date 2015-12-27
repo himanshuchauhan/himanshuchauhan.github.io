@@ -28,7 +28,7 @@
                     <h1>ABOUT</h1>
                 </div>
                 <div class="abt">
-                    <p>I am a Front-End Designer//Developer with a passion for designing beautiful and functional user experiences.I am currently in BHOPAL and Learning through <a href="http://www.freecodecamp.com">Freecodecamp.com</a> .</p>
+                    <p>I am a Front-End <span class="pro"></span><br>with a passion for designing beautiful <br> and functional user experiences.I am currently in <span class="location"></span><br>and Learning to code through <br><a href="http://www.freecodecamp.com">Freecodecamp.com</a> .</p>
                 </div>
                 <div class="top green">
 
@@ -94,9 +94,9 @@
                 <h1>CONTACT</h1>
             </div>
             <div class="followme">
-<div class="social icon ion-social-twitter"></div>
-<div class="social icon ion-social-github"></div>
-<div class="social icon ion-social-linkedin"></div>
+                <div class="social icon ion-social-twitter"></div>
+                <div class="social icon ion-social-github"></div>
+                <div class="social icon ion-social-linkedin"></div>
 
 
 
@@ -105,7 +105,28 @@
     </footer>
 
 
-
+    <script type="text/javascript" src="js/jquery.js">
+    </script>
+    <script type="text/javascript" src="js/typed.min.js">
+    </script>
+    <script>
+        $(function() {
+            $(".location").typed({
+                strings: ["BHOPAL", "AGRA", "NEW DELHI"],
+                typeSpeed: 100,
+                loop: true,
+                backDelay:1000,
+            });
+        });
+        $(function() {
+            $(".pro").typed({
+                strings: ["Designer","Developer",],
+                typeSpeed: 100,
+                loop: true,
+                backDelay:1000,
+            });
+        });
+    </script>
 </body>
 
 </html>

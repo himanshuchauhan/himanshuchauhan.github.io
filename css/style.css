@@ -18,40 +18,41 @@
         background-color: #2b2d42;
     }
     h1 {
-        font-family: ArialRoundedMTBold;
+        font-family: HelveticaNeue-Medium;
         font-size: 5em;
         color: #1CBF9C;
         text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.50);
         text-align: center;
+        font-weight: normal;
     }
     h2 {
         /* Himanshu Chauhan: */
-        font-family: Helvetica-light;
-        font-size: 6em;
+        font-family: HelveticaNeue-thin;
+        font-size: 5em;
+        font-weight: normal;
         color: #fcfcfd;
         text-align: center;
     }
     h4 {
         /* Designer//Developer/: */
-        font-family: helvetica-Italic;
+        font-family: HelveticaNeue-UltraLight;
         font-size: 3em;
         color: #fcfcfd;
         text-align: center;
+        font-weight: normal;
     }
     .abt {
         position: absolute;
         width: 50%;
         height: 70%;
-        margin-left: 50%;
-        margin-top: 80px;
+        margin-left: 53%;
+        margin-top: 100px;
     }
     p {
-        /* Lorem ipsum dolor si: */
-        margin-top: 75px;
-        font-family: Athelas-Italic;
+        font-family: HelveticaNeue-UltraLight;
         font-size: 2.5em;
         color: #707891;
-        text-align: center;
+        /*text-align: cent;*/
     }
     footer {
         height: 550px;
@@ -147,7 +148,7 @@
     }
     .skillsh1 {
         position: absolute;
-        margin-top: -65px;
+        margin-top: -70px;
         margin-left: 35%;
         margin-right: 35%;
         width: 20%;
@@ -164,34 +165,76 @@
         margin-top: -65px;
     }
     .icon {
-
-
         color: #15c19c;
         font-size: 80px;
     }
-    h3{
+    h3 {
+        font: HelveticaNeue-Italic;
         color: #707891;
         font-size: 3em;
         text-align: center;
+        font-weight: normal;
     }
-    .skillDiv{
+    .skillDiv {
         text-align: center;
         width: 20%;
         height: 50%;
         float: left;
     }
-    .svg{
+    .svg {
         height: 80px;
         filter:
     }
-    a{
+    a {
         text-decoration: none;
         color: #15c19c;
     }
-
-.social{
-    color: #fcfcfd;
-float: left;
-}
-
+    .social {
+        color: #fcfcfd;
+        float: left;
+    }
+    .type-wrap {
+        display: inline;
+    }
     /*#fcfcfd #15c19c*/
+
+    .typed-cursor {
+        color: #333;
+        opacity: 1;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+    }
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @-webkit-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @-moz-keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
