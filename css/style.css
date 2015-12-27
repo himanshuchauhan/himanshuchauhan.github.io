@@ -15,7 +15,6 @@
         margin-top: 150px;
     }
     body {
-        max-width: 1300px;
         background-color: #2b2d42;
     }
     h1 {
@@ -27,14 +26,14 @@
     }
     h2 {
         /* Himanshu Chauhan: */
-        font-family: Athelas-Bold;
+        font-family: Helvetica-light;
         font-size: 6em;
         color: #fcfcfd;
         text-align: center;
     }
-    h3 {
+    h4 {
         /* Designer//Developer/: */
-        font-family: Athelas-Italic;
+        font-family: helvetica-Italic;
         font-size: 3em;
         color: #fcfcfd;
         text-align: center;
@@ -51,7 +50,7 @@
         margin-top: 75px;
         font-family: Athelas-Italic;
         font-size: 2.5em;
-        color: #09A88A;
+        color: #707891;
         text-align: center;
     }
     footer {
@@ -59,7 +58,6 @@
         margin-top: 100px;
     }
     .view {
-
         margin-left: 5vw;
         margin-right: 5vw;
     }
@@ -166,7 +164,34 @@
         margin-top: -65px;
     }
     .icon {
+
+
         color: #15c19c;
-        font-size: 5em;
+        font-size: 80px;
     }
+    h3{
+        color: #707891;
+        font-size: 3em;
+        text-align: center;
+    }
+    .skillDiv{
+        text-align: center;
+        width: 20%;
+        height: 50%;
+        float: left;
+    }
+    .svg{
+        height: 80px;
+        filter:
+    }
+    a{
+        text-decoration: none;
+        color: #15c19c;
+    }
+
+.social{
+    color: #fcfcfd;
+float: left;
+}
+
     /*#fcfcfd #15c19c*/
