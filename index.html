@@ -9,26 +9,47 @@
     <link rel="stylesheet" href="/css/ionicons.css">
 </head>
 
-<body class="">
+<body >
+    <div class="container">
+			<div class="menu-wrap">
+				<nav class="menu">
+					<div class="icon-list">
+						<a data-scroll href="#home">Home</a>
+						<a data-scroll href="#about">About</a>
+						<a data-scroll href="#portfolio">Portfolio</a>
+						<a data-scroll href="#skills">Skills</a>
+						<a data-scroll href="#contact">Contact</a>
+					</div>
+				</nav>
+			</div>
+			<button class="menu-button" id="open-button"></button>
+
+
     <div class="view">
-        <header>
+        <header id="home">
             <div class="base white">
                 <img class="logo" src="/assets/LOGO.svg" alt="logo" />
                 <div class="top green">
                     <h2>Himanshu Chauhan</h2>
-                    <h4>Designer//Developer//Minimalist</h4>
+                    <h4>Designer // Developer  // Minimalist</h4>
 
                 </div>
 
             </div>
         </header>
-        <section class="about">
+        <section class="about" id="about">
             <div class="base white">
                 <div class="abouth1">
                     <h1>ABOUT</h1>
                 </div>
                 <div class="abt">
-                    <p>I am a Front-End <span class="pro"></span><br>with a passion for designing beautiful <br> and functional user experiences.I am currently in <span class="location"></span><br>and Learning to code through <br><a href="http://www.freecodecamp.com">Freecodecamp.com</a> .</p>
+                    <p>I am a Front-End
+                        <span class="pro"></span>
+                        <br>with a passion for designing beautiful
+                        <br> and functional user experiences.I am currently in
+                        <span class="location"></span>
+                        <br>and Learning to code through
+                        <br><a href="http://www.freecodecamp.com">Freecodecamp.com</a> .</p>
                 </div>
                 <div class="top green">
 
@@ -36,7 +57,7 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="base green">
                 <div class="portfolioh1">
                     <h1>PORTFOLIO</h1>
@@ -44,7 +65,7 @@
                 <div class="top projects white"></div>
             </div>
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="base white">
                 <div class="skillsh1">
                     <h1>SKILLS</h1>
@@ -88,7 +109,7 @@
         </section>
     </div>
 
-    <footer>
+    <footer id="contact">
         <div class="foot">
             <div class="contacth1">
                 <h1>CONTACT</h1>
@@ -103,30 +124,40 @@
             </div>
         </div>
     </footer>
-
+</div>
 
     <script type="text/javascript" src="js/jquery.js">
     </script>
     <script type="text/javascript" src="js/typed.min.js">
     </script>
+    <script type="text/javascript" src="js/scrollreveal.min.js">
+    </script>
+    <script type="text/javascript" src="js/smooth-scroll.min.js">
+    </script>
+    <script type="text/javascript" src="js/main.js">
+    </script>
+
     <script>
         $(function() {
             $(".location").typed({
                 strings: ["BHOPAL", "AGRA", "NEW DELHI"],
                 typeSpeed: 100,
                 loop: true,
-                backDelay:1000,
+                backDelay: 1000,
             });
         });
         $(function() {
             $(".pro").typed({
-                strings: ["Designer","Developer",],
+                strings: ["Designer", "Developer", ],
                 typeSpeed: 100,
                 loop: true,
-                backDelay:1000,
+                backDelay: 1000,
             });
         });
+        window.sr = ScrollReveal().reveal('.portfolio, .skills,.foot,.about,.view');
+        smoothScroll.init();
     </script>
+
 </body>
 
 </html>
