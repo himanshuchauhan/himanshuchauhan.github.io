@@ -13,7 +13,7 @@
     }
     header {
         height: 450px;
-        /*margin-top: 230px;*/
+
         padding-top: 130px;
 
     }
@@ -55,7 +55,7 @@
         font-family: HelveticaNeue-UltraLight;
         font-size: 2.5em;
         color: #707891;
-        /*text-align: cent;*/
+        text-align: left;
     }
     footer {
         height: 550px;
@@ -194,13 +194,26 @@
         text-decoration: none;
         color: #15c19c;
     }
+    .followme{
+        margin-left: 20%;
+        margin-top: 100px;
+        margin-right: 20%;
+        width: 60%;
+        height: 100px;
+    }
     .social {
         color: #fcfcfd;
         float: left;
+        margin: 10px;
+        padding: 50px;
     }
-    .type-wrap {
-        display: inline;
-    }
+#fcc{
+
+    width: 190px;
+padding: 40px;
+}
+
+
     /*#fcfcfd #15c19c*/
 
     .typed-cursor {
