@@ -59,7 +59,7 @@
     }
     footer {
         height: 550px;
-        margin-top: 100px;
+        margin-top: 200px;
     }
     .view {
         margin-left: 5vw;
@@ -122,7 +122,7 @@
         width: 50%;
         margin-left: 28%;
         margin-right: 22%;
-        margin-top: 8px;
+        margin-top: -15px;
     }
     .portfolio>.base {
         position: relative;
@@ -139,7 +139,7 @@
     }
     .portfolioh1 {
         position: absolute;
-        margin-top: 8px;
+        margin-top: -15px;
         margin-left: 25%;
         width: 50%;
     }
@@ -151,7 +151,7 @@
     }
     .skillsh1 {
         position: absolute;
-        margin-top: -70px;
+        margin-top: -85px;
         margin-left: 40%;
         margin-right: 35%;
         width: 20%;
